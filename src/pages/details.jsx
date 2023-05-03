@@ -36,8 +36,8 @@ function App() {
     return (
         <div className="w-screen h-screen grid place-items-center">
             <div className="w-96 p-4 flex flex-col justify-start gap-4">
-                {Object.keys(data).map((key) => (
-                    <div className="rounded bg-slate-300 text-black flex flex-col gap-2 p-4">
+                {Object.keys(data).map((key, index) => (
+                    <div key={index} className="rounded bg-slate-300 text-black flex flex-col gap-2 p-4">
                         <h1 className="font-bold text-2xl">{key}</h1>
                         <p>{data[key]}</p>
                     </div>
