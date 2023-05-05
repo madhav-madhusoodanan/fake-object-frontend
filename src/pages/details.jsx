@@ -4,6 +4,7 @@ function App() {
     const [data, setData] = useState({
         "Product ID": "12345",
         "Name": "Reebok Shoes",
+        "Owner": "Amish"
     })
 
     const queryData = async function () {

@@ -28,6 +28,7 @@ function Post() {
     return (
         <div className="w-screen h-screen grid place-items-center overflow-y-auto text-black">
             <div className="w-[36rem] p-4 flex flex-col justify-start gap-4 items-center">
+                <h1 className="font-bold text-xl">Add Product details</h1>
                 {console.log(inputData)}
                 {inputData.map((member, index) => (
                     <div className="flex flex-row gap-4" key={index}>
