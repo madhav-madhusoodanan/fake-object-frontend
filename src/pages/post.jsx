@@ -7,7 +7,7 @@ function Post() {
         // create wallet
         // send some amount there
         // use the privateKey and the productID to create a link
-        window.location.pathname = "/qrcode?url=www.google.com"
+        window.location.pathname = "/qrcode\?url=www.google.com"
     }
 
     const addField = function () {
